@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: #FF8686;
+}
+
+p, a {
+  font-family: 'Roboto';
+  font-size: 36px;
+}
+
+nav {
+  width: 352px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_top {
+  position: fixed;
+  top: 1vw;
+  left: 1vw;
+  margin: 0px;
+}
+.left_bottom {
+  position: fixed;
+  bottom: 1vw;
+  left: 1vw;
+  margin: 0px;
+}
+.right_top {
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  margin: 0px;
+}
+.right_bottom {
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+  margin: 0px;
+}
+
+iframe {
+  position: absolute;
+}
+
+.circle_canvas {
+  width: 673px;
+  height: 317px;
+
+  bottom: 4vw;
+  right: 1vw;
+}
+.type_canvas {
+  width: 433px;
+  height: 317px;
+
+  bottom: 4vw;
+  left: 20vw;
+}
+.balls_canvas {
+  width: 907px;
+  height: 430px;
+
+  top: 4vw;
+  left: 1vw;
+}
+
+.descr_circle_canvas {
+  position: absolute;
+  font-size: 18px;
+  width: 457px;
+  top: 30vw;
+  right: 1vw;
+}
+
+.descr_type_canvas {
+  position: absolute;
+  font-size: 18px;
+  width: 228px;
+  bottom: 5vw;
+  left: 1vw;
+}
+
+.descr_balls_canvas {
+  position: absolute;
+  font-size: 18px;
+  width: 457px;
+  top: 3vw;
+  right: 1vw;
+}
